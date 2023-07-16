@@ -17,7 +17,7 @@ urlpatterns = [
     path('collection/', views.CollectionData, name='CollectionData'),
     path('collections/', CollectionAPIView.as_view(), name='CollectionAPIView'),
     path('count/', views.count, name='count'),
-    # path('collection/', views.CollectionData, name='CollectionData'),
+    path('collection/', views.CollectionData, name='CollectionData'),
 
 ]
 
