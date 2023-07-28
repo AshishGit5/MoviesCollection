@@ -13,5 +13,3 @@ class Movie(models.Model):
     genres = models.CharField(max_length=255)
     uuid = models.CharField(max_length=255)
     collection = models.ForeignKey(Collection, on_delete=models.CASCADE, related_name='movies',default=1)
-
-
